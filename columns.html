@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>OC's Portfolio</title> <!--Title Page-->
+        <style>
+            /* Defining the rule for columns */
+            .cdivider{
+                column-count: 3;
+                column-gap: 40px;
+                column-rule-style: solid;
+                column-width: 2px;
+                column-rule-color: yellowgreen;
+
+            }
+            /* defining the header rule */
+            .header{
+                background-color: turquoise;
+                color: tomato;
+            }
+            /* defining the footer rule */
+            .footer{
+                background-color: rgb(20, 19, 19);
+                color: blanchedalmond;
+                padding-top: 50px;
+                text-align: center;
+                height: 100px;
+            }
+            /*Body Style*/
+.Ribbon{ 
+    /*This rule is to set the navigation bar*/
+    list-style: none;
+    margin: 0;
+    padding: 50;
+    overflow: hidden;
+    background-color:#E2E2E2;
+}
+.RibbonLi{
+    /*this rule defines the elements to align to left*/
+    float: left;
+    border-right: 1px solid black;
+}
+ 
+ .RibbonLi:last-child{
+    /*this rule is to set the border in the navigation bar*/
+    border-right: none;
+}
+
+ .RibbonLi a:hover{
+     /*To display the hover color as blue and text coloc as white*/
+     color: #171717;
+     background-color: white;
+    }
+
+.RibbonLi a{
+    display: block;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: #171717;
+}
+
+.OC{
+    width: 150px;
+    height: 50px;
+}
+/*SideBar*/
+aside p {
+width: 30%;
+border-bottom: 1px solid black;
+border-top: 1px solid black;
+padding: 1em 0;
+margin: 0 0.6em;
+background-color: goldenrod;
+}
+
+        </style>
+    </head>
+    <body>
+        <!-- Header -->
+
+        <div class="header">
+            <h2>Website Development</h2>
+            <img src="C:\Users\oscar\OneDrive\Desktop\UIW\Sr-1\Web-Dev\Portfolio\Portfolio_4\assignment-4-update-on-your-website-Oscardenas1\images\Oscar Cardenas-logos_black_small.png" style="padding-left: 350px; height: 200px; width: 700px;" alt="">
+
+        </div>
+
+        <!-- NavBar -->
+        <div >
+            <ul class="Ribbon">
+              <li><a href="C:\Users\oscar\OneDrive\Desktop\UIW\Sr-1\Web-Dev\Portfolio\Portfolio_4\assignment-4-update-on-your-website-Oscardenas1\homepage.html"><img class="OC RibbonLi" src="C:\Users\oscar\OneDrive\Desktop\UIW\Sr-1\Web-Dev\Portfolio\Portfolio_4\assignment-4-update-on-your-website-Oscardenas1\images\Oscar Cardenas-logos_black_small.png"> </a></li>
+              <li class="RibbonLi"><a class = "active" href="C:\Users\oscar\OneDrive\Desktop\UIW\Sr-1\Web-Dev\Portfolio\Portfolio_4\assignment-4-update-on-your-website-Oscardenas1\WhatsNew.html">What's New</a></li>
+              <li class="RibbonLi"><a class = "active" href="C:\Users\oscar\OneDrive\Desktop\UIW\Sr-1\Web-Dev\Portfolio\Portfolio_4\assignment-4-update-on-your-website-Oscardenas1\AboutMe.html">About Me</a></li>
+              <li class="RibbonLi"><a class = "active" href="C:\Users\oscar\OneDrive\Desktop\UIW\Sr-1\Web-Dev\Portfolio\Portfolio_4\assignment-4-update-on-your-website-Oscardenas1\Subscribe.html">Subscribe</a></li>
+              <li><form action="">
+                <input style="float: right;" type="text" name="search" placeholder="Search...">
+            </form></li>
+          </ul>
+          </div>
+
+        <!-- display the content of the columns by using the divider rule -->
+        <div class="cdivider">
+            <h2>OC's Portfolio</h2>
+            <p>Welcome to the website. If you're here, you're likely looking to find random words. Random Word Generator is the perfect tool to help you do this. While this tool isn't a word creator, it is a word generator that will generate random words for a variety of activities or uses. Even better, it allows you to adjust the parameters of the random words to best fit your needs.</p>
+            <p>The first option the tool allows you to adjust is the number of random words to be generated. You can choose as many or as few as you'd like. You also have the option of choosing words that only begin with a certain letter, only end with a certain letter or only begin and end with certain letters. If you leave these blank, the randomized words that appear will be from the complete list.</p>
+            <p>Another option you have is choosing the number of syllables of the words or the word length of the randomized words. There are also ways to further refine these by choosing the "less than" or "greater than" options for both syllables and word length. Again, if you leave the space blank, the complete list of randomized words will be used.</p>
+            <p>You have the option of choosing the types of words you want to be displayed using the "Word Type" dropdown. The default is "All" which is a curated list of thousands of the more common English words. You can also opt to only display nouns, verbs, or adjectives from this curated list. If you want to choose from all the words out there, you can choose "Extended" which is a list that includes over half a million different English words.</p>
+            <p>If you're interested in random words in languages other than English, you can choose the "Non English" word type. Doing so will give you the option to generate words in ten different languages other than English. This includes Spanish words, Hindi words, Arabic words, German words, Russian words, Chinese words, Japanese words, Korean words. Latin words, or Italian words. You simply need to choose the language and then words from that language will randomly appear with each refresh of the page.</p>
+            <p>Once you have input all of your specifications, all you have to do is to press the Generate Random Words button, and a list of random words will appear. Below are some of the common ways people use this tool.</p>
+        </div>
+        <div class="footer">
+            <h3>Oscar Cardenas 2021</h3>
+
+        </div>
+    </body>
+</html>

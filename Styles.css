@@ -1,0 +1,588 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+}
+
+p{
+    width: 100m;
+    padding: 0.5;
+    border: 0.25em solid black;
+    margin: 1em;
+}
+
+/*Body Style*/
+.Ribbon{ 
+    /*This rule is to set the navigation bar*/
+    list-style: none;
+    margin: 0;
+    padding: 50;
+    overflow: hidden;
+    background-color:#E2E2E2;
+}
+.RibbonLi{
+    /*this rule defines the elements to align to left*/
+    float: left;
+    border-right: 1px solid black;
+}
+ 
+ .RibbonLi:last-child{
+    /*this rule is to set the border in the navigation bar*/
+    border-right: none;
+}
+
+ .RibbonLi a:hover{
+     /*To display the hover color as blue and text coloc as white*/
+     color: #171717;
+     background-color: white;
+    }
+
+.RibbonLi a{
+    display: block;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: #171717;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.24);
+}
+
+.OC{
+    width: 150px;
+    height: 50px;
+}
+/*SideBar*/
+aside p {
+width: 30%;
+border-bottom: 1px solid black;
+border-top: 1px solid black;
+padding: 1em 0;
+margin: 0 0.6em;
+background-color: goldenrod;
+}
+/*main content*/
+article {
+    width: 70%;
+    float: right;
+}
+article p{
+    padding: 0 1em 1em;
+}
+input[type = text]{
+    width: 150px;
+    box-sizing: border-box;
+    border: 2px salmon;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('C:\Users\oscar\OneDrive\Desktop\UIW\Sr-1\Web-Dev\search.jpg');
+    background-position: 30px 30px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 20px;
+    transition: widtth 0.4s ease-in-out;
+}
+.Landing{
+    position: relative;
+    background: rgb(129,96,25);
+    background: linear-gradient(150deg, rgba(129,96,25,1) 1%, rgba(54,54,60,1) 40%, rgba(23,23,23,1) 84%);
+    color: #E2E2E2;
+    height: 500px;
+    z-index: 1;
+}
+.lines{
+    position:absolute;
+    right: 0px;
+    top: 0px;
+    height: auto;
+    width: auto;
+    z-index: 2;
+}
+.inner-Landing{
+    
+    position:absolute;
+    top:190px;
+    bottom:10px;
+    right:80px;
+    width: 500px;
+    height:300px;
+    background-color: #677381;
+    color:#000000;
+    box-shadow: -10px -10px 20px 10px #1a191981 inset;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 3;
+}
+/* Typewriter effect */
+.typewriter{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.1em solid rgb(187, 255, 0); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0em; /* Adjust as needed */
+    animation: 
+      typing 5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(187, 255, 0); }
+  }
+#Div-header{
+    position:absolute;
+    top:1px;
+    right:auto;
+    margin-top: 0;
+    font-family: 'Comfortaa', cursive;
+    font-size: 3rem;
+    font-stretch: ultra-expanded;
+    color: #ff8902;
+    text-shadow: 2px 2px black;
+    z-index: 4;
+}
+.HeadShot{
+    position: absolute;
+    bottom: 0px;
+    left: 1px;
+    width: 300px;
+    height: 453px;
+    z-index: 5;
+}
+.AboutMe{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background: rgb(130,160,170);
+    background: linear-gradient(180deg, rgba(130,160,170,1) 1%, rgba(163,207,205,1) 40%, rgba(255,255,255,1) 84%);
+    z-index: 3;
+}
+.abtmetxt1{
+    top: 0px;
+    left: 126px;
+}
+.abtmetxt2{
+    top: 100px;
+    left: 129px;
+}
+.button1{
+    width: 170px;
+    height: 70px;
+    position: absolute;
+    top: 355px;
+    left: 665px;
+    z-index: 4;
+    background: rgb(15,114,204);
+background: linear-gradient(0deg, rgba(15,114,204,1) 0%, rgba(5,190,252,1) 25%, rgba(8,236,249,1) 84%);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    transition-duration: 0.9s;
+    cursor: pointer;
+}
+.button1:hover{
+    border: 2px solid #4CAF50;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+.button01{
+    top: 355px;
+    left: 135px;
+}
+.WhatsNew{
+    position: relative;
+    height: 530px;
+    width: 100%;
+    background-color: white;
+    z-index: 3;
+}
+.WN2{
+    height: 1000px;
+    background: rgb(130,160,170);
+    background: linear-gradient(180deg, rgba(130,160,170,1) 1%, rgba(163,207,205,1) 40%, rgba(255,255,255,1) 84%); 
+}
+.Others{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+}
+
+.frame{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    height: 300px;
+    width: 300px;
+    padding: 30px 30px 100px 30px;
+    background-color: whitesmoke;
+    box-shadow: 5px 10px 18px #888888;
+    cursor: pointer;
+}
+.frame2{
+    left: 1000px;
+}
+.frame3{
+    top: 572px;
+    left: 100px;
+}
+.frame4{
+    top: 572px;
+    left: 1000px;
+}
+.frame5{
+    top: 104px;
+    left: 560px;
+    height: 140px;
+    width: 668px;
+    padding: 30px 30px 100px 30px;
+}
+.octo2{
+    position: absolute;
+    top: -39px;
+    left: 22px;
+    height: 333px;
+}
+.whaleshark{
+    position: absolute;
+    top: -18px;
+    left: 58px;
+    height: 333px;
+}
+.Motor{
+    position: absolute;
+    top: 48px;
+    left: 20px;
+    height: 180px;
+}
+.LR{
+    position: absolute;
+    top: 48px;
+    left: 20px;
+    height: 161px;
+}
+.SI{
+    position: absolute;
+    top: 25px;
+    left: 1px;
+    height: 219px;
+}
+.imtext{
+    position: absolute;
+    top: 304px;
+    text-align: center;
+    border: transparent;
+}
+.imtext1{
+left: 7px;
+}
+.imtext2{
+    top: 317px;
+    left: 87px;
+}
+.imtext3{
+    top: 317px;
+    left: 63px;
+}
+.imtext4{
+    top: 317px;
+    left: 7px;
+}
+.imtext5{
+    top: 27px;
+    left: 370px;
+}
+.imp{
+    top: 97px;
+    left: 301px;
+}
+
+
+
+.ntwrk{
+z-index: 2;
+position: absolute;
+top: 6px;
+left: 5px;
+height: 517px;
+}
+.cadimg{
+    z-index: index 2;
+    position: absolute;
+top: 120px;
+left: 938px;
+height: 327px;
+}
+.txt{
+    position: absolute;
+    font-size: 5rem;
+    z-index: 4;
+}
+.wntxt1{
+    top: 0px;
+    left: 126px;
+}
+.wntxt2{
+    top: 100px;
+    left: 129px;
+}
+.button2{
+    top: 322px;
+    left: 358px;
+}
+.Subscribe{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    z-index: 3;
+}
+.octo{
+    position: absolute;
+    height: 400px;
+    top: -27px;
+    left: -20px;
+    z-index: 3;
+
+}
+.colhue{
+    position: absolute;
+    height: 187px;
+    top: 213px;
+    left: 287px;
+    z-index: 3;
+}
+.subtxt1{
+    top: -21px;
+    right: 129px;
+}
+.subtxt2{
+    top: 73px;
+    right: 129px;
+}
+.subtxt3{
+    top: 163px;
+    right: 129px;
+}
+.button3{
+    top: 333px;
+    left: 498px;
+}
+
+.abtme2{
+    height: auto;
+}
+.p1{
+   margin-left: 40%;
+   margin-top: 4%;
+   font-size: 1.6rem;
+   border: transparent;
+   text-indent: 50px;
+}
+.p2{
+    margin-left: 40%;
+    font-size: 1.6rem;
+    border: transparent;
+    text-indent: 50px;
+}
+.ocheadShot2{
+height: 388px;
+float: left;
+margin-left: 3%;
+border-radius: 100%;
+}
+.exp1{
+    position: relative;
+}
+.exp{
+    height: 418px;
+    margin-left: 1037px;
+    margin-top: 20px;
+    border-radius: 10%;
+}
+.h1am{
+    position: absolute;
+    top: 103px;
+    left: 69px;
+    font-size: 4rem;
+}
+.p3{
+    position: absolute;
+    top: 256px;
+    left: 69px;
+    border: transparent;
+}
+.imxp{
+    height: 118px;
+    margin-left: 69px;
+    margin-right: 7px;
+    margin-bottom: 17px;
+}
+.cdiv{
+    column-count: 2;
+    column-gap: 2px;
+}
+.cdivinner{
+position: relative;
+}
+.meter{
+    position: absolute;
+    top: 44px;
+    left: 300px;
+    float: right;
+    border: transparent;
+    background: rgb(249,7,7);
+background: linear-gradient(90deg, rgba(249,7,7,1) 9%, rgba(237,246,6,1) 91%);
+    height: 54px;
+    width: 4px;
+    border-radius: 10px;
+    transition: width 2s;
+}
+.meter:hover{
+width: 448px;
+}
+
+.Foot{
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color: #000000;
+    color: cornsilk;
+    z-index: 3; 
+}
+.f1{
+        position: absolute;
+        top: 7px;
+        left: 59px;
+}
+.f2{
+    position: absolute;
+    top: 23px;
+    left: 730px;
+}
+.f{
+    position: absolute;
+    left: 1300px;
+    text-decoration: none;
+    color: ivory;
+}
+.f3{
+    top: 5px;
+}
+.f4{
+    top: 25px;
+}
+.f5{
+    top: 45px;
+
+}
+.footLogo{
+    height: 40px;
+}
+.footLogo:hover{
+    height: 50px;
+}
+.ig{
+    position: absolute;
+    top: 38px;
+    left: 46px;
+}
+.fb{
+    position: absolute;
+    top: 38px;
+    left: 95px;
+}
+.linked{
+    position: absolute;
+    top: 38px;
+    left: 148px;
+}
+.twtr{
+    position: absolute;
+    top: 38px;
+    left: 208px;
+}
+
+.constr{
+    position: relative;
+    height: 587px;
+}
+.construction{
+    position: absolute;
+    top: 79px;
+    left: 45%;
+}
+.constxt{
+    position: absolute;
+    top: 250px;
+    left: 30%;
+    height: auto;
+    width: 668px;
+    border: transparent;
+    text-align: center;
+}
+
+/* this is just a test */
+#frame1 { 
+    position:absolute;
+    top:250px;
+    bottom:0px;
+    right:80px;
+    width: 500px;
+    height:300px;
+    background-color:rgb(166, 196, 204);
+    color:rgb(99, 97, 97);
+}
+#frame2 { 
+    position:absolute;
+    top:250px;
+    bottom:0px;
+    right:800px;
+    width: 500px;
+    height:300px;
+    background-color:rgb(166, 196, 204);
+    color:rgb(99, 97, 97);
+}
+#frame3 { 
+    position:absolute;
+    top:600px;
+    bottom:0px;
+    right:800px;
+    width: 500px;
+    height:300px;
+    background-color:rgb(166, 196, 204);
+    color:rgb(99, 97, 97);
+}
+#frame4 { 
+    position:absolute;
+    top:600px;
+    bottom:0px;
+    right:80px;
+    width: 500px;
+    height:300px;
+    background-color:rgb(166, 196, 204);
+    color:rgb(99, 97, 97);
+}
+.Brand{
+    float: left;
+    width: 500px;
+    height: 400px;
+}
+.Brand1{
+    float: left;
+    width: 200px;
+    height: 100px;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+   <title>OC - Class7</title> <!--title of the page-->
+   <style>
+       /* Header/Blog title */
+.header{
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+}
+.header h1{
+    font-size: 50px;
+}
+       /* style to create two unequal columns that float next to each other */
+       /* left column */
+.leftcolumn{
+    float: left;
+    width: 75%;
+}
+       /* right column */
+.rightcolumn{
+    float: right;
+    width: 20%;
+    background-color: yellowgreen;
+    padding-left: 20px;
+}
+
+       /* style rue to add a card effect for articles */
+.card{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+     /* clear floats after the columns */
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+       }
+/* Create pagination effect style for the nav bar */
+.pagination{
+display: inline-block;
+}
+.pagination a{
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    margin: 0 4px;
+}
+.pagination a:hover:not(.active){
+    background-color:rgba(115, 255, 0, 0.616);
+    border-radius: 10px;
+}
+.center{
+    text-align: center;
+}
+/* highlight the current page using .active class */
+/* :hover selector to change the color of each page link when moving the mouse over them */
+
+       /* body font style */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+.img{
+    width: 100%;
+    background-color: rgba(0, 255, 0, 0.274);
+    padding: 20px;
+}
+/* style for buttons */
+.button1{
+    background-color: chartreuse;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+       /* this rule is added to create link dividers */
+
+   </style>
+  </head>
+  <body>
+      <div class="header">
+        <img src="C:\Users\oscar\OneDrive\Desktop\UIW\Sr-1\Web-Dev\Portfolio\assignment-5-update-on-your-website-Oscardenas1\images\OC_Logo.png" alt="">
+        <h1>Web-Dev</h1>
+        <p>fall 2021</p>
+      </div>
+      <!-- display the horizontal navegation bar section of th code -->
+      <div class="center">
+<div class="pagination">
+    <a href="#">&laquo;</a>
+    <a href="#">&lsaquo;</a>
+    <a href="#">Home</a>
+    <a href="#">Assignment</a>
+    <a href="#">Modules</a>
+    <a href="#">Resources</a>
+    <a href="#">Contact</a>
+    <a href="#">&rsaquo;</a>
+    <a href="#">&raquo;</a>
+    </div>
+    
+</div>
+<!-- content displayed in left column & right column -->
+<div class="row">
+    <div class="leftcolumn">
+        <div class="card">
+            <h2>Web-Dev I 01</h2>
+            <h5>Fall Semester, August 23 2021</h5>
+            <div class="img" style="height: 20px;">Image</div>
+            <p>This is Web-Dev</p>
+            <button class="button button1">Grades</button>
+        </div>
+        <div class="card">
+            <h2>Web-Dev I 01</h2>
+            <h5>Fall Semester, August 23 2021</h5>
+            <div class="img" style="height: 20px;">Image</div>
+            <p>This is Web-Dev</p>
+        </div>
+    </div>
+    <div class="rightcolumn">
+        <div class="card">
+            <h2>Web-Dev I 01</h2>
+            <h5>Fall Semester, August 23 2021</h5>
+            <div class="img" style="height: 20px;">Image</div>
+            <p>This is Web-Dev</p>
+        </div>
+        <div class="card">
+            <h2>Web-Dev I 01</h2>
+            <h5>Fall Semester, August 23 2021</h5>
+            <div class="img" style="height: 20px;">Image</div>
+            <p>This is Web-Dev</p>
+        </div>
+        <div class="card">
+            <h2>Web-Dev I 01</h2>
+            <h5>Fall Semester, August 23 2021</h5>
+            <div class="img" style="height: 20px;">Image</div>
+            <p>This is Web-Dev</p>
+        </div>
+</div>
+  </body>
+</html>
